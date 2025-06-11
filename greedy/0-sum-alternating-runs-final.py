@@ -25,6 +25,8 @@ def test_getMaxSum():
     assert getMaxSum([5, 4, 3, 2]) == 5
     assert getMaxSum([1, 2, 3, 2, 1, 4, 5]) == 11
     assert getMaxSum([1, 2, 1, 2, 1]) == 8
+    assert getMaxSum([5, 3, 1]) == 5
+    assert getMaxSum([7, 11, 21, 13, 9, 4, 1]) == 42
     print("PASSED ALL TESTS.")
     
 test_getMaxSum()
